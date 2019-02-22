@@ -24,7 +24,7 @@ public class RandomImageAction extends ActionSupport {
 
 			RandomImageGenerator.render(randomString, res.getOutputStream());
 		}
-        return SUCCESS;
+        return null;
     }
 
 }
